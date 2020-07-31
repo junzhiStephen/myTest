@@ -6,40 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="942f295e-521b-419e-8bb1-cc3fb0bb2365" name="Default Changelist" comment="配置完成版">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/dao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/main/java/com/ssmdemo/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/com/ssmdemo/dao/AccountDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/mybatis-3-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/main/resources/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/src/test/java/TestA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/ssmdemo/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ssmdemo/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ssmdemo/service/imp/AccountServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/resources/spring-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/test/java/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/ssmdemo/controller/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="942f295e-521b-419e-8bb1-cc3fb0bb2365" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/dcfvhgjhbknj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -354,7 +322,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -376,7 +344,7 @@
       <workItem from="1596089549633" duration="1023000" />
       <workItem from="1596093957093" duration="5712000" />
       <workItem from="1596107199097" duration="11320000" />
-      <workItem from="1596169005454" duration="8552000" />
+      <workItem from="1596169005454" duration="8799000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1596102242442</created>
@@ -420,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596108001296</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="配置完成版">
+      <created>1596177722931</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596177722931</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,10 +442,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="745" y="359" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1596117210926" />
-    <state x="632" y="0" key="CommitChangelistDialog2" timestamp="1596177677879">
+    <state x="632" y="0" key="CommitChangelistDialog2" timestamp="1596177712268">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="632" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596177677879" />
+    <state x="632" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596177712268" />
     <state x="857" y="155" key="FileChooserDialogImpl" timestamp="1596103298851">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -531,10 +506,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596174736333" />
-    <state x="547" y="134" key="Vcs.Push.Dialog.v2" timestamp="1596108039422">
+    <state x="547" y="134" key="Vcs.Push.Dialog.v2" timestamp="1596177728067">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="547" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596108039422" />
+    <state x="547" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596177728067" />
     <state x="431" y="202" key="git4idea.merge.GitPullDialog" timestamp="1596107717997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
