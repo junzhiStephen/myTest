@@ -4,3 +4,4 @@
 加入fastJosn转换配置
 使用了光速数据库连接池
 出现springMVC漏洞
+出现log4j漏洞警告
