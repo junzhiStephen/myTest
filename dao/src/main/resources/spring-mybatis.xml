@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+     http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+    ">
+    <!--1.读取roperties去加载数据库资源-->
+    <context:property-placeholder  location="classpath:jdbc.properties"/>
+    <bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource">
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="driverClassName" value="${jdbc.driver}"/>
+    </bean>
+    <!--start 2-加载mybatis配置文件，把mybatis环境托管到Spring-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:mybatis-3-config.xml"/>
+    </bean>
+    <!--3.配置 Mapper 扫描器-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 注入sqlSessionFactory -->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <!-- 给出需要扫描Dao接口包 -->
+        <property name="basePackage" value="com.ssmdemo.dao"/>
+    </bean>
+    <context:component-scan base-package="com.ssmdemo.dao"/>
+</beans>
