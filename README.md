@@ -3,3 +3,4 @@
 已经整合了springmvc工程，
 加入fastJosn转换配置
 使用了光速数据库连接池
+出现springMVC漏洞
